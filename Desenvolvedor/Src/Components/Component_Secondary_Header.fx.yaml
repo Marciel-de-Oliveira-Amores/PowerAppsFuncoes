@@ -1,0 +1,57 @@
+Component_Secondary_Header As CanvasComponent:
+    CancelOnSelect: ="Text"
+    CloseDetail: =true
+    Fill: =RGBA(0, 0, 0, 0)
+    HeaderText: ="Text"
+    Height: =768-70
+    NavigationVisibility: =true
+    OnReset: =Set(closeDetail, true)
+    OpenDetail: =true
+    ScreenNavigation: =App.ActiveScreen
+    Width: =1366/2
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Label_Header_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(116, 39, 116, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =18
+        Text: =Component_Secondary_Header.HeaderText
+        Width: =1366/2
+        ZIndex: =1
+
+    Label2 As label:
+        BorderColor: =RGBA(116, 39, 116, 1)
+        BorderThickness: =1
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =698
+        Size: =13
+        Text: =""
+        Width: =683
+        ZIndex: =2
+
+    Icon1_1 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 18, 107, 1)
+        Color: =RGBA(116, 39, 116, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =0
+        Height: =50
+        HoverColor: =Self.Color
+        Icon: =Icon.Cancel
+        OnSelect: =Reset(Component_Secondary_Header); 
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        PressedColor: =Self.Color
+        Width: =50
+        X: =1366/2-50
+        ZIndex: =3
+

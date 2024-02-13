@@ -1,0 +1,52 @@
+Screen_Helper_1 As screen:
+    BackgroundImage: =PowerAppsLogo
+    Height: =Max(App.Height, App.DesignHeight)
+    ImagePosition: =ImagePosition.Center
+    LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
+    Width: =Max(App.Height, App.DesignWidth)
+
+    Component_Header_Phone_3 As Component_Header_Phone:
+        HeaderText: ="Navigate"
+        ScreenNavigation: =Screen_PA_FormulaReference
+
+    Icon1_4 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =0
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =Self.Color
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =Self.Color
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =70
+        ZIndex: =2
+
+    Label6 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(51, 51, 51, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =90
+        Size: =20
+        Text: ="locNavVar = " & locNavVar
+        Width: =495
+        X: =435
+        Y: =339
+        ZIndex: =3
+

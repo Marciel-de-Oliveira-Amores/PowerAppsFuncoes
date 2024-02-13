@@ -1,0 +1,25 @@
+App As appinfo:
+    BackEnabled: =false
+    ConfirmExit: =true
+    ConfirmExitMessage: ="Do you not love Power Apps?"
+    OnStart: |-
+        =Set(appColor, RGBA(116, 39, 116, 1)); ClearCollect(asciiChars, ASCII); ClearCollect(colThisItem, Table({Name: "Ticket1", Status: "Open", Change1: "", Change2: ""}, {Name: "Ticket2", Status: "Closed", Change1: "", Change2: ""}, {Name: "Ticket3", Status: "Closed", Change1: "", Change2: ""}, {Name: "Ticket4", Status: "Open", Change1: "", Change2: ""}, {Name: "Ticket5", Status: "Open", Change1: "", Change2: ""}, {Name: "Ticket6", Status: "Closed", Change1: "", Change2: ""}));     
+        // Set Global Variables
+            Set(
+                gblScreenHeightMin,
+                640
+            );
+            // Width * 1.77 for aspect ratio
+            Set(
+                gblScreenWidthMin,
+                1136
+            );
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

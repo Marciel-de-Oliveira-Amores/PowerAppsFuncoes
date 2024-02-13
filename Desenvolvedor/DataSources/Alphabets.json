@@ -1,0 +1,16 @@
+[
+  {
+    "Data": "[{\"Column1\":\"All\"},{\"Column1\":\"A\"},{\"Column1\":\"B\"},{\"Column1\":\"C\"},{\"Column1\":\"D\"},{\"Column1\":\"E\"},{\"Column1\":\"F\"},{\"Column1\":\"G\"},{\"Column1\":\"H\"},{\"Column1\":\"I\"},{\"Column1\":\"J\"},{\"Column1\":\"K\"},{\"Column1\":\"L\"},{\"Column1\":\"M\"},{\"Column1\":\"N\"},{\"Column1\":\"O\"},{\"Column1\":\"P\"},{\"Column1\":\"Q\"},{\"Column1\":\"R\"},{\"Column1\":\"S\"},{\"Column1\":\"T\"},{\"Column1\":\"U\"},{\"Column1\":\"V\"},{\"Column1\":\"W\"},{\"Column1\":\"X\"},{\"Column1\":\"Y\"},{\"Column1\":\"Z\"}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "Alphabets",
+    "OrderedColumnNames": [
+      "Column1"
+    ],
+    "OriginalName": "Alphabets",
+    "OriginalSchema": "*[Column1:s]",
+    "Schema": "*[Column1:s]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]

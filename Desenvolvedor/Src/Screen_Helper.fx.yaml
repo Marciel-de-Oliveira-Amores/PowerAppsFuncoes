@@ -1,0 +1,32 @@
+Screen_Helper As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    LoadingSpinnerColor: =RGBA(135, 100, 184, 1)
+    Width: =Max(App.Height, App.DesignWidth)
+
+    Component_Header_Phone_2 As Component_Header_Phone:
+        HeaderText: ="Tela de ajuda"
+        ScreenNavigation: =Screen_PA_FormulaReference
+
+    Icon1_3 As icon.ArrowLeft:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =0
+        Height: =70
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =Self.Color
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Back()
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =Self.Color
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =70
+        ZIndex: =2
+

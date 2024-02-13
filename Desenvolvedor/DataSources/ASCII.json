@@ -1,0 +1,16 @@
+[
+  {
+    "Data": "[{\"Column1\":1},{\"Column1\":2},{\"Column1\":3},{\"Column1\":4},{\"Column1\":5},{\"Column1\":6},{\"Column1\":7},{\"Column1\":8},{\"Column1\":9},{\"Column1\":10},{\"Column1\":11},{\"Column1\":12},{\"Column1\":13},{\"Column1\":14},{\"Column1\":15},{\"Column1\":16},{\"Column1\":17},{\"Column1\":18},{\"Column1\":19},{\"Column1\":20},{\"Column1\":21},{\"Column1\":22},{\"Column1\":23},{\"Column1\":24},{\"Column1\":25},{\"Column1\":26},{\"Column1\":27},{\"Column1\":28},{\"Column1\":29},{\"Column1\":30},{\"Column1\":31},{\"Column1\":32},{\"Column1\":33},{\"Column1\":34},{\"Column1\":35},{\"Column1\":36},{\"Column1\":37},{\"Column1\":38},{\"Column1\":39},{\"Column1\":40},{\"Column1\":41},{\"Column1\":42},{\"Column1\":43},{\"Column1\":44},{\"Column1\":45},{\"Column1\":46},{\"Column1\":47},{\"Column1\":48},{\"Column1\":49},{\"Column1\":50},{\"Column1\":51},{\"Column1\":52},{\"Column1\":53},{\"Column1\":54},{\"Column1\":55},{\"Column1\":56},{\"Column1\":57},{\"Column1\":58},{\"Column1\":59},{\"Column1\":60},{\"Column1\":61},{\"Column1\":62},{\"Column1\":63},{\"Column1\":64},{\"Column1\":65},{\"Column1\":66},{\"Column1\":67},{\"Column1\":68},{\"Column1\":69},{\"Column1\":70},{\"Column1\":71},{\"Column1\":72},{\"Column1\":73},{\"Column1\":74},{\"Column1\":75},{\"Column1\":76},{\"Column1\":77},{\"Column1\":78},{\"Column1\":79},{\"Column1\":80},{\"Column1\":81},{\"Column1\":82},{\"Column1\":83},{\"Column1\":84},{\"Column1\":85},{\"Column1\":86},{\"Column1\":87},{\"Column1\":88},{\"Column1\":89},{\"Column1\":90},{\"Column1\":91},{\"Column1\":92},{\"Column1\":93},{\"Column1\":94},{\"Column1\":95},{\"Column1\":96},{\"Column1\":97},{\"Column1\":98},{\"Column1\":99},{\"Column1\":100},{\"Column1\":101},{\"Column1\":102},{\"Column1\":103},{\"Column1\":104},{\"Column1\":105},{\"Column1\":106},{\"Column1\":107},{\"Column1\":108},{\"Column1\":109},{\"Column1\":110},{\"Column1\":111},{\"Column1\":112},{\"Column1\":113},{\"Column1\":114},{\"Column1\":115},{\"Column1\":116},{\"Column1\":117},{\"Column1\":118},{\"Column1\":119},{\"Column1\":120},{\"Column1\":121},{\"Column1\":122},{\"Column1\":123},{\"Column1\":124},{\"Column1\":125},{\"Column1\":126},{\"Column1\":127},{\"Column1\":128}]",
+    "IsSampleData": false,
+    "IsWritable": false,
+    "Name": "ASCII",
+    "OrderedColumnNames": [
+      "Column1"
+    ],
+    "OriginalName": "ASCII",
+    "OriginalSchema": "*[Column1:n]",
+    "Schema": "*[Column1:n]",
+    "Token": "dummyToken",
+    "Type": "StaticDataSourceInfo"
+  }
+]
